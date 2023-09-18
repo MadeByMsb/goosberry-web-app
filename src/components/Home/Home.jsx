@@ -2,7 +2,7 @@ import React, { lazy, Suspense, useEffect } from 'react'
 // import About from '../About/About'
 import Banner from '../Banner/Banner'
 // import Categories from '../Categories/Categories'
-import Contact from '../Contact /Contact'
+import Contact from '../Contact/Contact'
 // import Customers from '../Customers/Customers'
 
 const Customers = lazy(() => import("../Customers/Customers"))
