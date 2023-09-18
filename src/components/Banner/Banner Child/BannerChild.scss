@@ -1,0 +1,59 @@
+.banner-child--container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(129px);
+    background: rgba(100, 98, 98, 0.418);
+    box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.15);
+    width: max-content;
+    padding: 0 1rem;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    z-index: 1001;
+    transform: translate(-50%,-1rem);
+    .items-wrapper{
+        width: 18rem;
+        overflow: hidden;
+    }
+    .items-slider{
+        display: flex;
+        width: 108rem;
+        transition: margin 0.3s ease;
+    }
+    .previous-arrow,
+    .next-arrow{
+        width: 3rem;
+        height: 3rem;
+        background: #000;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .slide--image{
+        width: 4rem;
+        height: 4rem;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 10px;
+        margin: 1rem;
+        border: 2px solid transparent;
+        transition:border 0.3s ease;
+    }
+}
+
+@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+    .banner-child--container{
+        backdrop-filter: blur(129px);
+        background: rgba(255, 255, 255, 0.2);
+    }
+}
+@media only screen and (max-width: 768px) {
+    .banner-child--container{
+        display: none;
+    }
+}

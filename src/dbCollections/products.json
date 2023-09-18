@@ -1,0 +1,86 @@
+[
+    {
+        "category":"pens",
+        "text":"Be part of their every single word",
+        "images": 12,
+        "color": "#DFE0E4"
+    },
+    {
+        "category":"tshirt",
+        "text":"to be the best suit",
+        "images": 12,
+        "color": "#DFE0E4"
+    },
+    {
+        "category":"mugs",
+        "text":"Give them a perfect sip of happiness",
+        "images": 7,
+        "color": "#090909"
+    },
+    {
+        "category":"bottles",
+        "text":"cool customized bottles",
+        "images": 11,
+        "color": "#BEBEBE"
+    },
+    {
+        "category":"dairy",
+        "text":"Make every moments lasting with customized diaries",
+        "images":20,
+        "color": "#FFFFFF"
+    },
+    {
+        "category":"clock",
+        "text":"Your ad will tick 24hrs on the wall",
+        "images":4,
+        "color": "#C4C4C4"
+    },
+    {
+        "category":"key-chain",
+        "text":"help to unlock with your fame",
+        "images":6,
+        "color": "#E0FFFC"
+    },
+    {
+        "category":"caps",
+        "text":"to get to the top ",
+        "images":8,
+        "color": "#C4C4C4"
+    },
+    {
+        "category":"bags",
+        "text":"get stunning customized  bags",
+        "images":11,
+        "color": "#131313"
+    },
+    {
+        "category":"desktop",
+        "text":"attractive customized accessories",
+        "images":2,
+        "color": "#B5A16B"
+    },
+    {
+        "category":"umbrellas",
+        "text":"enjoy the shade with 'marked' umberllas",
+        "images":20,
+        "color": "#5F61A8"
+    },
+    {
+        "category":"calender",
+        "text":"to dispaly your ads for the whole year",
+        "images":2,
+        "color": "#FFFFFF"
+    },
+    {
+        "category":"gift-set",
+        "text":"Thoughtful Tokens of Appreciation",
+        "images":10,
+        "color": "#FFFFFF"
+    },
+    {
+        "category":"display",
+        "text":"Versatile Solutions for Your Presentations",
+        "images":8,
+        "color": "#FFFFFF"
+    }
+]

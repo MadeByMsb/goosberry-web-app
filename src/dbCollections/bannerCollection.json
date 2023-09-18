@@ -1,0 +1,86 @@
+[
+    {
+        "category":"Mugs",
+        "description": "Give them a perfect sip of happiness ",
+        "image": "banner-mug.png",
+        "color": "#E69C3B",
+        "link": "mugs"
+    },
+    {
+        "category":"Bags",
+        "description": "get stunning customized  bags",
+        "image": "banner-bags.png",
+        "color": "#B4B4B4",
+        "link": "bags"
+    },
+    {
+        "description": "to dispaly your ads for the whole year",
+        "category":"Calenders",
+        "image": "banner-calender.png",
+        "color": "#75B9AC",
+        "link": "calender"
+    },
+    {
+        "description": "Your ad will tick 24hrs on the wall",
+        "category":"Wall Clocks",
+        "image": "banner-clock.png",
+        "color": "#FFFFFF",
+        "link": "clock"
+    },
+    {
+        "description": "to be the best suit",
+        "category":"T-Shirts",
+        "image": "banner-clothes.png",
+        "color": "#FDBA36",
+        "link": "tshirt"
+    },
+    {
+        "description": "enjoy the shade with 'marked' umberllas",
+        "category":"Umbrellas",
+        "image": "banner-umbrella.png",
+        "color": "#5E60A3",
+        "link": "umbrellas"
+    },
+    {
+        "description": "be  part of thier every single word",
+        "category":"Pens",
+        "image": "banner-pen.png",
+        "color": "#EDE1DB",
+        "link": "pens"
+    },
+    {
+        "description": "Make every moments lasting with customized diaries",
+        "category":"Diary & Notebooks",
+        "image": "banner-diary.png",
+        "color": "#A9D29C",
+        "link": "dairy"
+    },
+    {
+        "description": "help to unlock with your fame ",
+        "category":"Key chains",
+        "image": "banner-keychain.png",
+        "color": "",
+        "link": "key-chain"
+    },
+    {
+        "description": "cool customized bottles",
+        "category":"Bottles",
+        "image": "banner-bottle.png",
+        "color": "#21CE1A",
+        "link": "bottles"
+    },
+    {
+        "description": "to get to the top",
+        "category":"Caps",
+        "image": "banner-headwear.png",
+        "color": "#9E632D",
+        "link": "caps"
+    },
+    {
+        "description": "attractive customized accessories",
+        "category":"Desktop Accessories",
+        "image": "banner-desk.png",
+        "color": "#AE9761",
+        "link": "desktop"
+    }
+]

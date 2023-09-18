@@ -1,0 +1,72 @@
+[
+    {
+        "category":"Mugs",
+        "image": "mugs.png",
+        "link":"mugs"
+    },
+    {
+        "category":"Bags",
+        "image": "bags.png",
+        "link":"bags"
+    },
+    {
+        "category":"Calenders",
+        "image": "calender.png",
+        "link":"calender"
+    },
+    {
+        "category":"Wall Clocks",
+        "image": "clocks.png",
+        "link":"clock"
+    },
+    {
+        "category":"T-Shirts",
+        "image": "clothes.png",
+        "link":"tshirt"
+    },
+    {
+        "category":"Umbrella & Rain wear",
+        "image": "umbrella.png",
+        "link":"umbrellas"
+    },
+    {
+        "category":"Pens",
+        "image": "pens.png",
+        "link":"pens"
+    },
+    {
+        "category":"Diaries & Notebooks",
+        "image": "diaries.png",
+        "link":"dairy"
+    },
+    {
+        "category":"Key chains",
+        "image": "keychain.png",
+        "link":"key-chain"
+    },
+    {
+        "category":"Bottles",
+        "image": "bottles.png",
+        "link":"bottles"
+    },
+    {
+        "category":"Caps",
+        "image": "headwear.png",
+        "link":"caps"
+    },
+    {
+        "category":"Desktop Accessories",
+        "image": "desk.png",
+        "link":"desktop"
+    },
+    {
+        "category":"Gift Set",
+        "image": "gift.png",
+        "link":"gift-set"
+    },
+    {
+        "category":"Portable Display Systems",
+        "image": "portable.png",
+        "link":"display"
+    }
+]

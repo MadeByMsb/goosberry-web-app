@@ -1,0 +1,99 @@
+@import '/src/variables';
+
+.footer-section{
+    padding: 2rem 7%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-areas: 'links contact connect''copyright copyright copyright';
+    grid-gap: 2rem;
+    color: #fff;
+    background: linear-gradient(0deg, #2CA548, #2CA548),linear-gradient(0deg, #05A54B, #05A54B),linear-gradient(0deg, #A8D47F, #A8D47F);
+
+    .usefull-links{
+        grid-area: links;
+    }
+    .links-wrapper{
+        display: flex;
+    }
+    .links{
+        list-style: none;
+    }
+    .link{
+        font-family: $exo2;
+        text-transform: uppercase;
+        cursor: pointer;
+        margin: 0.5rem 0;
+        line-height: 35px;
+    }
+    .footer-email{
+        text-transform: lowercase;
+    }
+    a{
+        color: #fff;
+    }
+    .footer--title{
+        font-family: $exo2;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+    }
+    .first-links{
+        margin-right: 3rem;
+    }
+    .footer-contact{
+        grid-area: contact;
+    }
+    .connect-section{
+        grid-area: connect;
+        justify-self: center;
+    }
+    .social--icon{
+        margin-right: 0.5rem;
+        cursor: pointer;
+    }
+    .copyright{
+        grid-area: copyright;
+        font-family: $exo2;
+        justify-self: center;
+    }
+}
+@media only screen and (max-width:1000px) {
+    .footer-section{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-areas: 'links contact''links connect''copyright copyright';
+        .footer--title{
+            font-size: 1.2rem;
+        }
+        .link{
+            font-size: 14px;
+        }
+        .links-wrapper{
+            flex-direction: column;
+        }
+        .connect-section{
+            justify-self: start;
+        }
+    }
+}
+@media only screen and (max-width: 500px) {
+    .footer-section{
+        grid-gap: 1rem;
+        padding: 2rem 0.5rem;
+        position: relative;
+        z-index: 9999;
+
+        .footer--title{
+            font-size: 14px;
+        }
+        .link{
+            font-size: 12px;
+            line-height: 25px;
+        }
+        .social--icon{
+            width: 2rem;
+        }
+        .copyright{
+            text-align: center;
+            font-size: 11px;
+        }
+    }
+}
