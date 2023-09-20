@@ -33,13 +33,14 @@ export default function Customers() {
         {
             [...Array(6)].map((item, index) => (
                 <div className="card" key={index}>
-                    {/* Add images 23, 24, and 25 to this section */}
-                    <img src={`/customers/logo ${index + 20}.png`} alt="" className="customer--logo" />
+                    {/* Add images 26 to 36 to this section */}
+                    <img src={`/customers/logo ${index + 31}.png`} alt="" className="customer--logo" />
                 </div>
             ))
         }
     </div>
 </div>
+
     </section>
   )
 }
