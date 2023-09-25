@@ -14,7 +14,7 @@ export default function Gallery() {
         </div>
         <div className="gallery-items-wrapper">
             {
-                [...Array(127)].map((item,index) => (
+                [...Array(140)].map((item,index) => (
                     <div className="card-wrapper" key={index}>
                         <LazyLoadImage 
                             width={"100%"}
